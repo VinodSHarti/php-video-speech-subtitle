@@ -1,0 +1,15 @@
+{
+  "name": "vinodharti/php-video-speech-subtitle",
+  "description": "Convert video speech to text and burn subtitles automatically",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Vinod\\VideoSpeech\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^8.0",
+    "guzzlehttp/guzzle": "^7.0"
+  }
+}
